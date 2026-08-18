@@ -1,0 +1,250 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Jardinería las Matas - Jardinería en Las Rozas, Madrid</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Karla:wght@400;500;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error-container": "#ffdad6",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-container": "#dae9b4",
+                        "on-tertiary-container": "#71af6f",
+                        "surface-bright": "#fcf9ee",
+                        "primary-fixed-dim": "#adceba",
+                        "primary-container": "#1f3d2e",
+                        "tertiary": "#002906",
+                        "surface": "#F2F4EA",
+                        "outline-variant": "#c2c8c2",
+                        "surface-container-highest": "#e5e2d8",
+                        "on-surface": "#1c1c15",
+                        "surface-tint": "#466554",
+                        "on-primary": "#ffffff",
+                        "primary": "#082719",
+                        "on-secondary": "#ffffff",
+                        "on-primary-fixed-variant": "#2f4d3d",
+                        "on-tertiary-fixed-variant": "#15521d",
+                        "secondary": "#56633a",
+                        "inverse-primary": "#adceba",
+                        "on-primary-container": "#87a894",
+                        "on-tertiary-fixed": "#002205",
+                        "on-primary-fixed": "#022113",
+                        "primary-fixed": "#c8ebd5",
+                        "secondary-fixed-dim": "#becc9a",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#b1f3ac",
+                        "on-background": "#1c1c15",
+                        "on-secondary-fixed-variant": "#3f4b24",
+                        "outline": "#727973",
+                        "on-error": "#ffffff",
+                        "on-secondary-container": "#5c693f",
+                        "error": "#ba1a1a",
+                        "on-tertiary": "#ffffff",
+                        "inverse-on-surface": "#f4f1e6",
+                        "on-surface-variant": "#424844",
+                        "surface-container": "#f1eee3",
+                        "surface-container-low": "#f7f4e9",
+                        "tertiary-container": "#00410f",
+                        "tertiary-fixed-dim": "#96d692",
+                        "inverse-surface": "#31312a",
+                        "secondary-fixed": "#dae9b4",
+                        "surface-dim": "#dddacf",
+                        "surface-variant": "#e5e2d8",
+                        "on-secondary-fixed": "#151f00",
+                        "surface-container-high": "#ebe8dd",
+                        "background": "#F2F4EA"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "section-gap-mobile": "64px",
+                        "base": "8px",
+                        "gutter": "24px",
+                        "container-max-width": "1200px",
+                        "section-gap-desktop": "120px"
+                    },
+                    "fontFamily": {
+                        "label-sm": ["Karla"],
+                        "body-lg": ["Karla"],
+                        "label-md": ["Karla"],
+                        "body-md": ["Karla"],
+                        "headline-xl": ["Fraunces"],
+                        "headline-lg": ["Fraunces"],
+                        "headline-md": ["Fraunces"],
+                        "headline-lg-mobile": ["Fraunces"]
+                    },
+                    "fontSize": {
+                        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-xl": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer utilities {
+            .bg-verde-bosque { background-color: #2C5940; }
+            .bg-verde-hoja { background-color: #4F9260; }
+            .bg-verde-salvia { background-color: #B9C9A0; }
+            .bg-crema-piedra { background-color: #F2F4EA; }
+            .bg-rojo-madrono { background-color: #C1443A; }
+
+            .text-verde-bosque { color: #2C5940; }
+            .text-verde-hoja { color: #4F9260; }
+            .text-rojo-madrono { color: #C1443A; }
+            .text-crema-piedra { color: #F2F4EA; }
+        }
+    </style>
+</head>
+<body class="bg-[#F2F4EA] text-on-surface font-body-md antialiased overflow-x-hidden">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-[#2C5940] text-white shadow-md transition-all duration-300">
+<nav class="flex justify-between items-center w-full px-gutter max-w-container-max-width mx-auto py-4">
+<div class="flex items-center gap-2 px-6"><img alt="Jardinería las Matas" class="h-32 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7Rpnj4SWyZHFRSqEXF6HTpCmoMp95ly4ql-E5oTZmyQ2dIHbm25DdGXXlLXSJE3VO06I4xaPe_DCZZSlCeI5OmyZzImgWrYVtfiRmltp_xR0wUxAwX8RSG5SvsrGWcmdchocof-aEYjsBMN0GcBEgfMjadP03AaZWmq5Y4Eg1MbYsXP7FcQQ4AJHmlgHnNL6-l0_R015IHPfwNhZL07u2idQ_gdKZ3G7kX_AgaqESIRM_aItSPw5g0M5QBq-Zlp5m8cc"></div>
+<div class="hidden md:flex gap-8">
+<a class="text-white/80 hover:text-white transition-colors border-b-2 border-transparent hover:border-[#4F9260] pb-1" href="#inicio">Inicio</a>
+<a class="text-white/80 hover:text-white transition-colors border-b-2 border-transparent hover:border-[#4F9260] pb-1" href="#servicios">Servicios</a>
+<a class="text-white/80 hover:text-white transition-colors border-b-2 border-transparent hover:border-[#4F9260] pb-1" href="#por-que">Por qué elegirnos</a>
+<a class="text-white/80 hover:text-white transition-colors border-b-2 border-transparent hover:border-[#4F9260] pb-1" href="#opiniones">Opiniones</a>
+<a class="text-white/80 hover:text-white transition-colors border-b-2 border-transparent hover:border-[#4F9260] pb-1" href="#contacto">Contacto</a>
+</div>
+<a class="hidden md:inline-flex items-center gap-2 bg-[#C1443A] hover:bg-red-800 text-white font-label-md text-label-md px-6 py-3 rounded-lg transition-colors shadow-sm" href="tel:+34666739278"><span class="material-symbols-outlined text-lg">call</span> Llamar ahora (666739278)</a>
+<!-- Mobile Menu Toggle -->
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú" class="md:hidden text-white p-2" id="mobile-menu-toggle">
+<span class="material-symbols-outlined text-3xl" id="mobile-menu-icon">menu</span>
+</button>
+</nav>
+<div class="hidden md:hidden bg-[#1e3d2c] px-gutter py-2" id="mobile-menu">
+<a class="block text-white/80 hover:text-white transition-colors py-3 border-b border-white/10" href="#inicio">Inicio</a>
+<a class="block text-white/80 hover:text-white transition-colors py-3 border-b border-white/10" href="#servicios">Servicios</a>
+<a class="block text-white/80 hover:text-white transition-colors py-3 border-b border-white/10" href="#por-que">Por qué elegirnos</a>
+<a class="block text-white/80 hover:text-white transition-colors py-3 border-b border-white/10" href="#opiniones">Opiniones</a>
+<a class="block text-white/80 hover:text-white transition-colors py-3" href="#contacto">Contacto</a>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="pt-40 pb-section-gap-mobile md:pb-section-gap-desktop bg-[#2C5940] text-white relative overflow-hidden scroll-mt-40" id="inicio">
+<div class="max-w-container-max-width mx-auto px-gutter grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div class="space-y-8 z-10"><h1 class="font-headline-xl text-headline-lg-mobile md:text-headline-xl text-white leading-tight" style="font-family: 'Archivo', sans-serif; font-weight: 900;">El jardín que se nota que alguien cuida</h1><p class="font-body-lg text-body-lg text-white/90 max-w-lg">Poda, riego y mantenimiento en Las Rozas, llevado en persona por Luchi.</p><div class="flex flex-wrap gap-4"><a class="inline-flex items-center gap-2 bg-[#C1443A] hover:bg-red-800 text-white font-label-md text-label-md px-8 py-4 rounded-lg transition-colors shadow-lg hover:-translate-y-0.5" href="https://wa.me/34666739278" target="_blank" rel="noopener">Pide tu presupuesto gratis</a><a class="inline-flex items-center gap-2 bg-[#4F9260] hover:bg-[#3d734b] text-white font-label-md text-label-md px-8 py-4 rounded-lg transition-colors shadow-lg hover:-translate-y-0.5" href="#servicios">Ver servicios</a></div></div>
+<div class="relative z-10 w-full aspect-video md:aspect-[4/3] rounded-xl overflow-hidden shadow-2xl">
+<img class="object-cover w-full h-full" data-alt="A lush, expertly maintained private garden in Madrid during golden hour, featuring perfectly manicured lawns, healthy olive trees, and natural stone pathways. Warm, inviting lighting highlights the vibrant greens and earthy textures. Artisanal, high-end landscape photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBd7PMP0rwxBsA5kEXHP-tcxZW0i-py05T_24fAWvSY5bkS4bfNYfS95FwooyYHqrwt_HQEMHncVkYKTEhKOdGGQH4hpE5YABGfhooFsuzFw4szks_67usvfzvMmdFUYAMFuus3vJjYkCHNirCTIYXm0Qyc3v5UKHGHSWOPfkBn8eqr6GdN_54aXuUpkR5WRvImPQM_cw3elDav_X8ixRRJnAS_KdlE4NY8-uE16C0tML99GXjGTgrB_QkFRwN-YcADaOo">
+<div class="absolute inset-0 bg-[#2C5940]/10 mix-blend-overlay"></div>
+</div>
+</div>
+<!-- Quick Facts Banner -->
+<div class="absolute bottom-0 left-0 w-full bg-[#1e3d2c] py-4">
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop bg-[#F2F4EA] text-[#082719] scroll-mt-40" id="servicios">
+<div class="max-w-container-max-width mx-auto px-gutter">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg mb-4 md:text-headline-xl" style="font-family: 'Archivo', sans-serif; font-weight: 900;">Nuestros Servicios</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Service Card 1 -->
+<div class="bg-[#B9C9A0] rounded-2xl p-8 hover:bg-[#a8ba8d] transition-colors border border-[#2C5940]/10 group"><div class="w-full aspect-square rounded-xl overflow-hidden mb-6 relative"><img class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" data-alt="Close up of lush, perfectly even, newly installed natural green turf in a sunny garden setting. Vibrant natural colors, high detail on grass blades." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyrnTYXVpyQMiFjJ-ytcUgj1nY1lyBLv5XJsxlWAwyQnSXwSQsq0Tm_G9KRGnynlbm-_fZfb-nHABYF_4JgXzaECSnFEXRl5EUHh3gw9ZYwiWUAInRzpBRPBRY7FP-nSaMjt15kXwL_oOoDSysiaOK606MqoITl7lTbXjFW53EXVtZ5abkFg0bVLbUGkzPFCo8JCjo5Fd18XCJfkhkafTnUJCG2fMpAVLN1Y4XDzZUG-rjsNGdaQcNxy0Zul-3kqJVh9s"></div><h3 class="font-headline-md text-headline-md mb-2 flex items-center gap-2">Poda</h3><p class="text-on-surface-variant">Poda de setos, arbustos, árboles y palmeras, con acabado cuidado y respeto por la forma de cada planta.</p></div>
+<!-- Service Card 2 -->
+<div class="bg-[#B9C9A0] rounded-2xl p-8 hover:bg-[#a8ba8d] transition-colors border border-[#2C5940]/10 group"><div class="w-full aspect-square rounded-xl overflow-hidden mb-6 relative"><img class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" data-alt="Professional gardener carefully pruning a decorative shrub with precision hand shears. Focus on the hands and the natural texture of the plant. Artisanal gardening aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_m5jNHPquw5gJsT5ANnsLUqdXrKEMBgvZoctWKpYysfLvua0mDvNbR1-ISz0Z85fL9ixCvm4uN5zPylTQ7XthKfik6ZB-CFzMG8ApI6DbzddpFsF6dzrlbFMl5fw60-dTCioMF8dcLik0DzrKfEZfpqEEwcehSnz_usE37mb3TTdGrBEsHe9iCfyD0GCFMaVmr2ERWAjVGAjQMWXklHWPEQ5YfPnkl4_nsmZ7RGZAde3bhUgYWbY2X5S8Pa6pT5R93tA"></div><h3 class="font-headline-md text-headline-md mb-2">Riego</h3><p class="text-on-surface-variant">Instalación de sistemas de riego automático y respuesta rápida ante urgencias y averías.</p></div>
+<!-- Service Card 3 -->
+<div class="bg-[#B9C9A0] rounded-2xl p-8 hover:bg-[#a8ba8d] transition-colors border border-[#2C5940]/10 group"><div class="w-full aspect-square rounded-xl overflow-hidden mb-6 relative"><img class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" data-alt="Modern automated irrigation system watering a green lawn at dusk. Fine mist catching the warm evening light. Clean, efficient landscaping." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBo3VvBPH1dQOeI5DYfSDbxO01xFohveXw7APzPrkYoewH8U_G0d6ZWtUAu6jhOhgI4TxYWOem_PeYSG49kLPinSG0UjCvhVKAGmIo4brskoRD2wGJT1OZfmNCrWhrJlts0VykL-HjHlQbljB7tybAo0NDBkDN7UASRmVjkD9dnTmzIESuYKNwMaHQFdkiW0vrTLSHjWd-EwUNKmMtgw5NOOEqHpxzEfue8imqdn0TaRaaqTDRp028o86fpb_Ont5k61zM"></div><h3 class="font-headline-md text-headline-md mb-2">Limpieza y desbroce</h3><p class="text-on-surface-variant">Retirada de maleza, hojas secas y limpieza profunda de parcelas descuidadas.</p></div>
+<!-- Service Card 4 -->
+<div class="bg-[#B9C9A0] rounded-2xl p-8 hover:bg-[#a8ba8d] transition-colors border border-[#2C5940]/10 group"><div class="w-full aspect-square rounded-xl overflow-hidden mb-6 relative"><img class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" data-alt="Wide shot of a beautifully maintained residential garden featuring a mix of flowering plants, neat edges, and a clean stone pathway." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyePAWu6kh9bSith1wr80w6mMUnADCIuoxuYgX2w-w_Me1KKWq9ezEEQJos0sYyQDXcRZw-Hp02l8I86r0CS2fjPQ0JV2XCvBcp5dacCefvHZ-04jgU64JEywGp44C1hkWQ5PIJ2nTrxI0unMQ5KmNXBkNmy2_QwJNYXPFSG5ZvjmZ54GXzYdRMS6Qzo5C52_YqwB7L6imjVrc4BwsyAY0Mgfr4H6nILN74vG5Sypx5mluwicFOc3bXXo2vM7rEFEZOAg"></div><h3 class="font-headline-md text-headline-md mb-2">Abonado</h3><p class="text-on-surface-variant">Tratamiento y fertilización adaptados a lo que necesita cada planta.</p></div>
+<!-- Service Card 5 -->
+<div class="bg-[#B9C9A0] rounded-2xl p-8 hover:bg-[#a8ba8d] transition-colors border border-[#2C5940]/10 group"><div class="w-full aspect-square rounded-xl overflow-hidden mb-6 relative"><img class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" data-alt="A cleared plot of land with rich, dark soil ready for planting, showing the before-and-after effect of professional brush clearing. Earthy tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3ft6KjQ0nQ8gUYTEAgRn3yxb2iMsWj0eI_geDRHmY35F8qu4xGQp6lpdW7U98SEtRFNFAvdlpcLnG9C-PrnY_loC7v4V4MN2A4qZmzoYlimHK6DGVJkg7Yct6co_D89hDmPFyZdvEA0itwAysaooF6IXJWKqDJtvHK7LebFyJ-11wxaxHESBfObi95u6ZZqr95GzkFt8msidMvFlBG7CJXfTLdvFpzcRXDHFoUf-k7X7X2elJyhpreUdCx_5UIYQG1Zk"></div><h3 class="font-headline-md text-headline-md mb-2">Mantenimiento</h3><p class="text-on-surface-variant">Visitas periódicas para que el jardín se mantenga siempre a punto.</p></div>
+<!-- Service Card 6 -->
+<div class="bg-[#B9C9A0] rounded-2xl p-8 hover:bg-[#a8ba8d] transition-colors border border-[#2C5940]/10 group"><div class="w-full aspect-square rounded-xl overflow-hidden mb-6 relative"><img class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" data-alt="Close up of healthy plant leaves with a fine, safe protective mist applied. Focus on plant health and care, avoiding harsh chemical imagery." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqBnIWTzeIga_DoXfPm01yme1IvfopqkQ8gU2ARlwaBjhdmT2rajaLdmAc8OlpmFLYYEvWYBKznmtuRS_pll92-tsjeYviBDeIYOOHGX2UuOzRvjlABwX1ibfdxUKezEWdXXNgJhISQApYgON4Yq9I8yUQ_IJPm8Si_kdH_1o5-BJdxn-ll8JVFBCTNRelOkhrTiDygRO2X4PSCbKG9gxJvA9U2coCjMprkdVzRBi4N393G5jkyqc6a2CYyU6VONNhG40"></div><h3 class="font-headline-md text-headline-md mb-2">Recuperación</h3><p class="text-on-surface-variant">Puesta a punto integral de jardines abandonados o dañados.</p></div>
+</div>
+</div>
+</section><section class="py-section-gap-mobile md:py-section-gap-desktop bg-[#B9C9A0] text-[#082719] scroll-mt-40" id="por-que">
+<div class="max-w-container-max-width mx-auto px-gutter">
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-xl text-center mb-16" style="font-family: 'Archivo', sans-serif; font-weight: 900;">Lo que se nota en cada trabajo</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-[#F2F4EA] p-8 rounded-2xl shadow-sm"><h3 class="font-headline-md text-headline-md mb-4">Confianza de años</h3><p class="text-on-surface-variant">Clientes que lo recontratan temporada tras temporada; algunos incluso le confían las llaves de casa para el riego mientras están fuera.</p></div>
+<div class="bg-[#F2F4EA] p-8 rounded-2xl shadow-sm"><h3 class="font-headline-md text-headline-md mb-4">Puntual y formal</h3><p class="text-on-surface-variant">Avisa media hora antes de llegar y cumple siempre lo acordado en fecha y hora.</p></div>
+<div class="bg-[#F2F4EA] p-8 rounded-2xl shadow-sm"><h3 class="font-headline-md text-headline-md mb-4">Atención al detalle</h3><p class="text-on-surface-variant">Sabe exactamente lo que necesita cada planta, y se nota en el resultado.</p></div>
+<div class="bg-[#F2F4EA] p-8 rounded-2xl shadow-sm"><h3 class="font-headline-md text-headline-md mb-4">Rápido en urgencias</h3><p class="text-on-surface-variant">Ante una avería de riego o una emergencia, responde y acude sin demora.</p></div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop bg-[#F2F4EA] text-[#082719] scroll-mt-40" id="opiniones">
+<div class="max-w-container-max-width mx-auto px-gutter">
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-xl text-center mb-16" style="font-family: 'Archivo', sans-serif; font-weight: 900;">Reseñas reales de Google</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+<div class="bg-white p-8 rounded-2xl border border-[#B9C9A0] relative"><span class="material-symbols-outlined text-[#4F9260] text-4xl mb-4">format_quote</span><p class="text-body-lg mb-6 italic">"Trabajador muy serio que cumple sus compromisos, con un trabajo cuidadoso y limpio. Todo un acierto."</p><p class="font-bold text-label-md uppercase tracking-wider">— Cliente en Google</p></div>
+<div class="bg-white p-8 rounded-2xl border border-[#B9C9A0] relative"><span class="material-symbols-outlined text-[#4F9260] text-4xl mb-4">format_quote</span><p class="text-body-lg mb-6 italic">"Nos instaló un sistema de riego que funciona perfectamente. Puntualidad y profesionalidad de sobra."</p><p class="font-bold text-label-md uppercase tracking-wider">— Cliente en Google</p></div>
+<div class="bg-white p-8 rounded-2xl border border-[#B9C9A0] relative"><span class="material-symbols-outlined text-[#4F9260] text-4xl mb-4">format_quote</span><p class="text-body-lg mb-6 italic">"Puesta a punto integral del jardín: poda, limpieza y abonado. Sabe justo lo que necesita cada planta."</p><p class="font-bold text-label-md uppercase tracking-wider">— Cliente en Google</p></div>
+<div class="bg-white p-8 rounded-2xl border border-[#B9C9A0] relative"><span class="material-symbols-outlined text-[#4F9260] text-4xl mb-4">format_quote</span><p class="text-body-lg mb-6 italic">"Puntual, limpio y un trabajo excelente — la palmera quedó espectacular, cuidando siempre el bienestar de los vecinos."</p><p class="font-bold text-label-md uppercase tracking-wider">— Cliente en Google</p></div>
+<div class="bg-white p-8 rounded-2xl border border-[#B9C9A0] relative"><span class="material-symbols-outlined text-[#4F9260] text-4xl mb-4">format_quote</span><p class="text-body-lg mb-6 italic">"Le llamamos por una urgencia de riego y fue rápido y eficiente. Volveremos a contratarle seguro."</p><p class="font-bold text-label-md uppercase tracking-wider">— Cliente en Google</p></div>
+<div class="bg-white p-8 rounded-2xl border border-[#B9C9A0] relative"><span class="material-symbols-outlined text-[#4F9260] text-4xl mb-4">format_quote</span><p class="text-body-lg mb-6 italic">"Nos lleva el mantenimiento del jardín desde hace años y estamos encantados. Un profesional excelente y aún mejor persona."</p><p class="font-bold text-label-md uppercase tracking-wider">— Cliente en Google</p></div>
+</div>
+<p class="text-center text-[#23291F] font-body-md">Y muchas reseñas más — la mayoría clientes que repiten.</p>
+</div>
+</section><footer class="bg-[#2C5940] text-white py-section-gap-desktop scroll-mt-40" id="contacto">
+<div class="max-w-container-max-width mx-auto px-gutter grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<div class="col-span-1 md:col-span-2"><div class="flex items-center gap-2 mb-8"><img alt="Jardinería las Matas" class="h-32 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxiRj08ijO4g5WrU33eLpThSihhR0qDDljO432bTiovL0x_lre_vyPUkr84hWofoSRG95FZkJmmaNz_TZJMv9Z7-uNnkc2VrRyLYX1DlzgvHocdVbUxyxMKgEWttR4WkxAjr4ezA90v3u_rFa_JR_36Bs-lQqiedd9Qs__PzZKum2eItSidpWMagvrQxCiKxz3in3ToIFXVIAwCaxeuiDJ4NHQeNLpXjVADsOdnp2z1ZeScCVe8-sOnK0lSyCQahxFSwQ"></div><p class="text-white/80 mb-6 max-w-md">Jardinería en Las Rozas. Cuidamos cada detalle para que tu jardín sea tu lugar favorito.</p><p class="font-body-md text-body-md text-white/60">© 2026 Jardinería las Matas. Artesanía del paisaje en Madrid.</p></div>
+<div>
+<h4 class="font-headline-md text-headline-md mb-4 text-white" style="font-family: 'Archivo Black', sans-serif; font-weight: 900;">Legal</h4>
+<ul class="space-y-2">
+<li class=""><a class="text-white/80 hover:text-white transition-colors" href="aviso-legal.html">Aviso Legal</a></li>
+<li class=""><a class="text-white/80 hover:text-white transition-colors" href="privacidad.html">Privacidad</a></li>
+<li class=""><a class="text-white/80 hover:text-white transition-colors" href="cookies.html">Cookies</a></li>
+</ul>
+</div>
+<div><h4 class="font-headline-md text-headline-md mb-4 text-white" style="font-family: 'Archivo Black', sans-serif; font-weight: 900;">Contacto</h4><ul class="space-y-2 text-white/80"><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[#4F9260]">call</span> <a class="hover:text-white transition-colors" href="tel:+34666739278">666 739 278</a></li><li class="flex items-start gap-2"><span class="material-symbols-outlined text-[#4F9260] mt-1">location_on</span><div><a class="hover:text-white transition-colors" href="https://www.google.com/maps/search/?api=1&query=C/+Rufino+S%C3%A1nchez,+Las+Rozas+de+Madrid,+28290" target="_blank" rel="noopener">C/ Rufino Sánchez — Las Rozas de Madrid, 28290</a><div class="mt-4 w-full h-48 bg-white/10 rounded-lg overflow-hidden border border-white/20"><iframe allowfullscreen="" class="rounded-lg" height="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=C/+Rufino+S%C3%A1nchez,+Las+Rozas+de+Madrid,+28290&amp;output=embed" style="border:0;" width="100%"></iframe></div></div></li></ul></div>
+</div>
+</footer>
+<!-- Mobile Sticky Actions -->
+<div class="md:hidden fixed bottom-0 left-0 w-full bg-[#F2F4EA] shadow-[0_-4px_12px_rgba(35,41,31,0.08)] p-4 flex gap-4 z-50"><a class="flex-1 bg-[#2C5940] text-white font-label-md text-center py-3 rounded-lg shadow-sm flex items-center justify-center gap-2" href="tel:+34666739278"><span class="material-symbols-outlined">call</span> Llamar</a><a class="flex-1 bg-[#C1443A] text-white font-label-md text-center py-3 rounded-lg shadow-sm flex items-center justify-center gap-2" href="https://wa.me/34666739278"><span class="material-symbols-outlined">chat</span> WhatsApp</a></div>
+</main>
+<script>
+(function () {
+    var toggle = document.getElementById('mobile-menu-toggle');
+    var menu = document.getElementById('mobile-menu');
+    var icon = document.getElementById('mobile-menu-icon');
+    if (!toggle || !menu) return;
+
+    function closeMenu() {
+        menu.classList.add('hidden');
+        toggle.setAttribute('aria-expanded', 'false');
+        if (icon) icon.textContent = 'menu';
+    }
+
+    function openMenu() {
+        menu.classList.remove('hidden');
+        toggle.setAttribute('aria-expanded', 'true');
+        if (icon) icon.textContent = 'close';
+    }
+
+    toggle.addEventListener('click', function () {
+        if (menu.classList.contains('hidden')) {
+            openMenu();
+        } else {
+            closeMenu();
+        }
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', closeMenu);
+    });
+})();
+</script>
+</body></html>
